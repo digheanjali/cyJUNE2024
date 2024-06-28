@@ -1,0 +1,15 @@
+to create new reop
+
+git init
+git commit -m "added"
+git add .
+git commit -m "added"
+create repo on github 
+paste last three cmd on your existing terminal
+//your repo will be create
+
+
+////to push daily code on remote repo use this cmd 
+git add .
+git commit -m "added"
+git push
