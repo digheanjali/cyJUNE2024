@@ -1,0 +1,3 @@
+{"connections":[{"info":{"role":"","SavePassword":"false","OracleConnectionType":"BASIC","PROXY_TYPE":"USER NAME","RaptorConnectionType":"Oracle","sid":"xe","cust
+omUrl":"jdbc:oracle:thin:@localhost:1521:xe
+","oraDriverType":"thin","NoPasswordConnection":"TRUE","hostname":"localhost","driver":"oracle.jdbc.OracleDriver","subtype":"oraJDBC","port":"1521","OS_AUTHENTICATION":"false","IS_PROXY":"false","KERBEROS_AUTHENTICATION":"false","user":"system","PROXY_USER_NAME":""},"name":"anjali","type":"jdbc"}]}

@@ -59,6 +59,12 @@ Cypress.Commands.add('loginOHRM', (un, pass, css, cls) => {
 
 })
 
+Cypress.Commands.add('getIFrameBody', (css) => {
+    return cy.get(css).its('0.contentDocument.body').then(cy.wrap)
+})
 
+Cypress.Commands.add('parseXlsx', (inputFile) => {
+    return cy.task('parseXlsx', { filePath: inputFile })
+})
 
 

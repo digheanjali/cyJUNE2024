@@ -1,0 +1,14 @@
+{
+    "userOne": {
+        "firstName": "rahul",
+        "lastName": "dighe",
+        "email": "rahul@gmail.com",
+        "msg": "java"
+    },
+    "userTwo": {
+        "firstName": "tushar",
+        "lastName": "pawase",
+        "email": "tusha@gmail.com",
+        "msg": "powerBI"
+    }
+}
