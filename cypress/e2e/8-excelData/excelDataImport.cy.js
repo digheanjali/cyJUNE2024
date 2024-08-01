@@ -44,25 +44,25 @@
 // --------------------------------------------------------------------
 
 
-// describe('import excel data from fixture file', function () {
+describe('import excel data from fixture file', function () {
 
-//     it('import excel data', function () {
-//         cy.parseXlsx('C:/Users/OM/OneDrive/Desktop/cyJUNEb/cypress/fixtures/login Credentials2.xlsx').then(function (jsonData) {
-//             //cy.log(jsonData[0].data[1][0])
+    it('import excel data', function () {
+        cy.parseXlsx('C:/Users/OM/OneDrive/Desktop/cyJUNEb/cypress/fixtures/login Credentials2.xlsx').then(function (jsonData) {
+            //cy.log(jsonData[0].data[1][0])
 
-//             for (let i = 1; i <= jsonData[0].data.length; i++) {
-//                 cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
-//                 cy.get('[name="first_name"]').type(jsonData[0].data[i][0])
-//                 cy.get('[name="last_name"]').type(jsonData[0].data[i][1])
-//                 cy.get('[name="email"]').type(jsonData[0].data[i][2])
-//                 cy.get('[name="message"]').type(jsonData[0].data[i][3])
-//                 cy.get('[type="submit"]').click()
+            for (let i = 1; i <= jsonData[0].data.length; i++) {
+                cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
+                cy.get('[name="first_name"]').type(jsonData[0].data[i][0])
+                cy.get('[name="last_name"]').type(jsonData[0].data[i][1])
+                cy.get('[name="email"]').type(jsonData[0].data[i][2])
+                cy.get('[name="message"]').type(jsonData[0].data[i][3])
+                cy.get('[type="submit"]').click()
 
-//                 cy.get('h1').should('have.text', 'Thank You for your Message!')
+                cy.get('h1').should('have.text', 'Thank You for your Message!')
 
-//             }
-//         })
+            }
+        })
 
-//     })
-// })
+    })
+})
 
