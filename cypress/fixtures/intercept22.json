@@ -1,0 +1,6 @@
+{
+    "name": "tushar pawase",
+    "email": "tushar@cypress.io",
+    "body": "You can change the method used for cy.intercept() to be GET, POST, PUT, PATCH, or DELETE",
+    "id": 501
+}
