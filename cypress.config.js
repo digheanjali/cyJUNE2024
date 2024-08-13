@@ -12,6 +12,7 @@ const path = require('path'); // for exel file payload
 
 module.exports = defineConfig({
   e2e: {
+    baseUrl: 'https://gorest.co.in/',
     includeShadowDom: true,
 
     setupNodeEvents(on, config) {
